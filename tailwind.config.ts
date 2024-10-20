@@ -11,9 +11,14 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        "bg-chief": '#F5EFE9',
+        pastry: "#E9E3DF"
       },
     },
   },
   plugins: [],
 };
 export default config;
+
+// #F5EFEA
+// #f5efe9
