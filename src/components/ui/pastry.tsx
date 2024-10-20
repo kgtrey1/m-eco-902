@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 export default function Pastry() {
     return (
         <div className=" bg-pastry pt-[100px] pb-[100px]">
@@ -17,11 +19,13 @@ export default function Pastry() {
           </div>
           <div className="-mt-8 w-full max-w-2xl xl:w-96 xl:flex-none">
             <div className="relative aspect-[2/1] h-full md:-mx-8 xl:mx-0 xl:aspect-auto">
-              <img
-                alt=""
-                src="/pastry.jpg"
-                className="absolute inset-0 h-full w-full rounded-2xl bg-gray-800 object-cover shadow-2xl object-top"
-              />
+            <Image
+                alt="Chief image"
+                src="/chief.webp"
+                layout="fill"
+                className="rounded-2xl bg-gray-800 object-cover shadow-2xl"
+                objectPosition="top"
+            />
             </div>
           </div>
         </div>
