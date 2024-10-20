@@ -1,7 +1,7 @@
 import ContactForm from '@/components/ui/contact-form'
 import FindUs from '@/components/ui/find-us'
 import NewHero from '@/components/ui/new-hero'
-import Pastry from '@/components/ui/pastry'
+import Products from '@/components/ui/products'
 import Biography from '@/components/ui/biography'
 
 
@@ -15,7 +15,7 @@ export default function Example() {
         <NewHero/>
       </div>
       <Biography />
-      <Pastry />
+      <Products />
       <FindUs />
       <ContactForm />
     </div>
