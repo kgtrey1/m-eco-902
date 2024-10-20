@@ -1,13 +1,10 @@
 import ContactForm from '@/components/ui/contact-form'
-import FindUs from '@/components/ui/find-us'
+import Location from '@/components/ui/location'
 import NewHero from '@/components/ui/new-hero'
 import Products from '@/components/ui/products'
 import Biography from '@/components/ui/biography'
 
-
-
-export default function Example() {
-
+export default function Home() {
   return (
     <div>
       <div className="md:h-screen w-full isolate overflow-hidden flex flex-col">
@@ -16,7 +13,8 @@ export default function Example() {
       </div>
       <Biography />
       <Products />
-      <FindUs />
+      <div className="h-20"/>
+      <Location />
       <ContactForm />
     </div>
   )
