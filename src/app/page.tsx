@@ -2,7 +2,7 @@ import ContactForm from '@/components/ui/contact-form'
 import FindUs from '@/components/ui/find-us'
 import NewHero from '@/components/ui/new-hero'
 import Pastry from '@/components/ui/pastry'
-import Testi from '@/components/ui/testi'
+import Biography from '@/components/ui/biography'
 
 
 
@@ -14,7 +14,7 @@ export default function Example() {
         <div className='h-[60px] w-full flex bg-red-500'/>
         <NewHero/>
       </div>
-      <Testi />
+      <Biography />
       <Pastry />
       <FindUs />
       <ContactForm />
