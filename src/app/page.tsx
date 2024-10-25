@@ -4,8 +4,9 @@ import Biography from '@/components/ui/biography'
 import Products from '@/components/ui/products'
 import Location from '@/components/ui/location'
 import ContactForm from '@/components/ui/contact-form'
+import Footer from '@/components/ui/footer'
 
-export default function Home() {
+export default function Page() {
     return (
         <main>
             <div className="md:h-screen w-full isolate overflow-hidden flex flex-col">
@@ -18,6 +19,7 @@ export default function Home() {
             <div className="min-h-10 pt-7 min-w-10 bg-red-500"/>
             <Location />
             <ContactForm />
+            <Footer />
         </main>
     )
 }
