@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function HeroGrid() {
     return (
-        <div className="flex flex-row items-center gap-7 lg:mr-14 md:-mr-0 -mr-96 md:mt-0 mt-7 overflow-hidden flex-shrink-0">
+        <div className="flex flex-row items-center gap-7 lg:mr-14 -mr-96 lg:mt-0 mt-7 overflow-hidden flex-shrink-0">
             <Image
                 alt="Le chef Lignac prépare des gourmandises"
                 src="/illustration-1.webp"
