@@ -18,7 +18,7 @@ export default function Footer() {
                     </Link>
                 </div>
             </div>
-            <div className="flex flex-row py-3 bg-bg-chief justify-between lg:px-16 px-12">
+            <div className="flex flex-row py-3 bg-bg-chief justify-between lg:px-16 px-6">
                 <p className="">
                     Mentions légales
                 </p>

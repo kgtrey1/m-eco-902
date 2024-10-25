@@ -1,6 +1,6 @@
 export default function ContactForm() {
     return (
-        <section className="flex w-full bg-bg-chief lg:px-16 px-12 py-20">
+        <section className="flex w-full bg-bg-chief lg:px-16 px-6 py-20">
             <div className="max-w-xl">
                 <h2 className="text-3xl font-bold mb-4">Nous contacter</h2>
                 <p className="text-lg my-6">

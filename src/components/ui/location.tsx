@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Location() {
     return (
         <section id="location" className="bg-pastry lg:px-12 mx-6 py-20">
-            <h2 className="text-2xl font-bold mb-14">Où nous trouver ?</h2>
+            <h2 className="text-3xl font-bold mb-14">Où nous trouver ?</h2>
             <div className="bg-red flex flex-col md:flex-row md:items-center gap-x-12">
                 <Link href="https://www.google.com/maps/d/edit?mid=1vKVot-fGu49zwWXLGjHofY5K5h1QZcY&usp=sharing" target="_blank">
                     <Image 
