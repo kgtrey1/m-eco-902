@@ -1,5 +1,5 @@
 
-import NewHero from '@/components/ui/new-hero'
+import NewHero from '@/components/ui/hero'
 import Biography from '@/components/ui/biography'
 import Products from '@/components/ui/products'
 import Location from '@/components/ui/location'
@@ -15,6 +15,7 @@ export default function Home() {
             <Biography />
             <Products />
             { /* insert "On parle de nous here" */ }
+            <div className="min-h-10 pt-7 min-w-10 bg-red-500"/>
             <Location />
             <ContactForm />
         </main>
