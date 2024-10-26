@@ -11,7 +11,7 @@ import Navbar from '@/components/ui/nav'
 export default function Page() {
     return (
         <main>
-            <div className="md:h-screen w-full isolate overflow-hidden flex flex-col">
+            <div className="md:h-screen w-full isolate overflow-hidden flex flex-col bg-pastry">
                 <Navbar />
                 <NewHero/>
             </div>

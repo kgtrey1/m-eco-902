@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
     return (
         <html lang="fr">
-            <body className={`antialiased max-h-screen bg-pastry`}>
+            <body className={`antialiased max-h-screen bg-bg-chief`}>
                 {children}
             </body>
         </html>
