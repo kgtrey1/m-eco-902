@@ -7,6 +7,10 @@
   --foreground: #171717;
 }
 
+.font-script {
+    font-family: "Lucida Handwriting", cursive, sans-serif;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);

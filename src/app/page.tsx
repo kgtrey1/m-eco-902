@@ -6,12 +6,13 @@ import Location from '@/components/ui/location'
 import ContactForm from '@/components/ui/contact-form'
 import PressSection from '@/components/ui/press'
 import Footer from '@/components/ui/footer'
+import Navbar from '@/components/ui/nav'
 
 export default function Page() {
     return (
         <main>
             <div className="md:h-screen w-full isolate overflow-hidden flex flex-col">
-                { /* insert header here */ }
+                <Navbar />
                 <NewHero/>
             </div>
             <Biography />
